@@ -9,32 +9,29 @@ import ScholarshipDetails from './pages/ScholarshipDetailsPage';
 import Admissions from './components/Admssions';
 import Footer from './components/Footer';
 import UniversityPage from './pages/UniversityPage';
-import LoginForm from './components/LoginForm'; 
-import SignUpForm from './components/SignUpForm';
 
 
 
 const App = () => {
   return (
-    <SignUpForm />
-    // <Router>
-    //   <div className="App"> 
-    //     <Header />
-    //     <Routes>
-    //       <Route path="/" element={<HomePage />} />
-    //       <Route path="/about" element={<AboutPage />} />
-    //       <Route path="/UniversityDetailsPage/:id" element={<UniversityDetailsPage />} />
-    //       <Route path="/Scholarships" element={<ScholarshipPage />} />
-    //       <Route path="/scholarship/:id" element={<ScholarshipDetails />} />
-    //       <Route path="/Universities" element={<UniversityPage />} />
-    //       <Route path="/Admission" element={<Admissions />} />
+    <Router>
+      <div className="App"> 
+        <Header />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/UniversityDetailsPage/:id" element={<UniversityDetailsPage />} />
+          <Route path="/Scholarships" element={<ScholarshipPage />} />
+          <Route path="/scholarship/:id" element={<ScholarshipDetails />} />
+          <Route path="/Universities" element={<UniversityPage />} />
+          <Route path="/Admission" element={<Admissions />} />
           
-    //     </Routes>
+        </Routes>
       
          
-    //     <Footer/>
-    //   </div>
-    // </Router>
+        <Footer/>
+      </div>
+    </Router>
   );
 };
 
