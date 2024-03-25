@@ -18,7 +18,7 @@ import {
   import classNames from "classnames"
   
   const sortOptions = [
-    { id: "sort1", label: "None", value: "Ranking" },
+    { id: "sort1", label: "None", value: "None" },
     { id: "sort1", label: "Ranking", value: "Ranking" },
     { id: "sort2", label: "World Rank", value: "WorldRank" },
    

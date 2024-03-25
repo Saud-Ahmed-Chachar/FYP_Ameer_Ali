@@ -37,7 +37,10 @@
     "City": "Lahore",
     "Province": "Punjab",
     "Recognised University": "Yes",
-    "Specialization": "General"
+    "Specialization": "General",
+
+    "Image": "https://banner2.cleanpng.com/20180703/ckc/kisspng-university-of-the-punjab-panjab-university-chandi-faridkot-punjab-5b3b4dbb734851.2240447315306131794722.jpg"
+    
   },
   {
     "ranking": 3,
@@ -52,7 +55,9 @@
     "City": "Islamabad",
     "Province": "Islamabad Capital Territory",
     "Recognised University": "Yes",
-    "Specialization": "General"
+    "Specialization": "General",
+
+    "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNOsRK6z_taonqipQBqzYVcfCLANO0LK7C3eDBUYNCEg&s"
   },
   {
     "Image":"https://i0.wp.com/jaamiah.com/wp-content/uploads/2019/04/Aga_Khan_University_Logo.png?resize=80%2C80&ssl=1",
