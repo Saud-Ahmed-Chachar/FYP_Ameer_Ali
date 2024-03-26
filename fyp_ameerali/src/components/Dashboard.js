@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
+import { useParams } from 'react-router-dom';
 
 const Dashboard = () => {
+  const { id } = useParams(); // Accessing the id parameter from the URL
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',
@@ -29,7 +32,12 @@ const Dashboard = () => {
       <div className="w-1/4 bg-gray-200 p-4">
         <h2 className="text-xl font-semibold mb-4">Menu</h2>
         <ul>
-          <li className="mb-2">Profile</li>
+          {/* Use Link component to navigate to different pages */}
+          <li className="mb-2"><Link to="/about">Profile</Link></li>
+          <li className="mb-2"><Link to="/universities">Universities</Link></li>
+          <li className="mb-2"><Link to="/admission">Admission</Link></li>
+          <li className="mb-2"><Link to="/scholarships">Scholarships</Link></li>
+
           {/* Add more menu items here */}
         </ul>
       </div>
