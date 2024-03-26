@@ -3,6 +3,7 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth"; // Only import once
 
 // Your web app's Firebase configuration
+// more code here
 const firebaseConfig = {
   apiKey: "AIzaSyDiOe_9TmZXravlUMhRi0HbQH6fqP7uPQw",
   authDomain: "uni-select-main.firebaseapp.com",
