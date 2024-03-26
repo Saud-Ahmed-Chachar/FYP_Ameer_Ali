@@ -41,7 +41,7 @@ const SearchBar = () => {
         >
             <input
                 id="search-bar"
-                placeholder="your keyword here"
+                placeholder="Search any university..."
                 className="px-6 py-2 w-full rounded-md flex-1 outline-none bg-white"
                 value={searchTerm}
                 onChange={handleChange}

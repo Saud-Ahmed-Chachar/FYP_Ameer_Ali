@@ -52,7 +52,9 @@ function Header() {
                             <Link to="/login"> {/* Use Link component to navigate to the LoginForm component */}
                                 <button className="focus:outline-none lg:text-lg lg:font-bold focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 hidden md:block bg-indigo-700 text-white transition duration-150 ease-in-out hover:bg-white hover:text-indigo-700 rounded border border-indigo-700 text-indigo-700 px-4 sm:px-8 py-1 sm:py-3 text-sm mr-2">Sign In</button>
                             </Link>
-                            <button className="focus:outline-none lg:text-lg lg:font-bold focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 hidden md:block bg-transparent transition duration-150 ease-in-out hover:bg-indigo-700 hover:text-white rounded border border-indigo-700 text-indigo-700 px-4 sm:px-8 py-1 sm:py-3 text-sm">Register</button>
+                            <Link to="/signup">
+                                <button className="focus:outline-none lg:text-lg lg:font-bold focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 hidden md:block bg-transparent transition duration-150 ease-in-out hover:bg-indigo-700 hover:text-white rounded border border-indigo-700 text-indigo-700 px-4 sm:px-8 py-1 sm:py-3 text-sm">Register</button>
+                            </Link>
                         </div>
                     </div>
                 </nav>

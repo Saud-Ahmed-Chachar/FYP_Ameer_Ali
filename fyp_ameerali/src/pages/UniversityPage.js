@@ -68,11 +68,12 @@ const handleShowAll = () => {
            <div className='flex flex-col items-left py-6  pl-12'>
            <h1 class="flex items-center text-5xl pt-12 font-extrabold dark:text-indigo ">Explore<span class="bg-indigo-100 text-blue-800 text-2xl font-semibold me-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ms-2">New</span></h1>
           </div>
+        <div className=" flex flex-col lg:flex-row-reverse justify-between items-center p-8 lg:p-12">
+          <div className="lg:w-1/3">
         {/* search bar */}
-         <div className="flex flex-col items-center p-8">
-        <SearchBar />
-        </div>
-        <div className='row pl-8'>
+              <SearchBar />
+          </div>
+        <div className='Province flex flex-wrap justify-center lg:justify-start gap-1 mt-4 lg:mt-0flex flex-wrap justify-center lg:justify-start gap-2 mt-4 lg:mt-0 w-full lg:w-2/3'>
             <button type="button" className={"text-green-700 hover:text-white border border-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-green-500 dark:text-green-500 dark:hover:text-white dark:hover:bg-green-600 dark:focus:ring-green-800" }
             onClick={handleShowAll}>
                 All
@@ -103,6 +104,7 @@ const handleShowAll = () => {
               Balochistan
             </button>
             
+        </div>
         </div>
         <div className='flex'>
           <div className='p-4'>
